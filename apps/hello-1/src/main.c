@@ -21,3 +21,8 @@
 /* TODO 1: add a main function to print a message */
 /* hint: printf */
 
+int main(int argc, char** argv)
+{
+    printf("Hello world!\n");
+    return 0;
+}
