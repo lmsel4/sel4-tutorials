@@ -21,6 +21,7 @@ source "kernel/Kconfig"
 endmenu
 
 menu "seL4 Applications"
+    source "apps/module-loader/Kconfig"
     source "apps/hello-1/Kconfig"
     source "apps/hello-2/Kconfig"
     source "apps/hello-3/Kconfig"
