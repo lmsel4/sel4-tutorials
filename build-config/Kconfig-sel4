@@ -34,6 +34,7 @@ menu "seL4 Applications"
 endmenu
 
 menu "seL4 Libraries"
+    source "libs/liblinux/Kconfig"
     source "libs/libsel4/Kconfig"
     source "libs/libmuslc/Kconfig"
     source "libs/libsel4muslcsys/Kconfig"
